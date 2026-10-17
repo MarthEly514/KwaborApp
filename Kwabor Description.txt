@@ -1,0 +1,30 @@
+So app name: Kwabor
+Description: its a digital invitation app that allows its users to create events and share their invitation links. These links redirect to a custom page where the receiver gets a custom invitation card, will you come: yes/no, etc.
+
+Functionalities: on top of the ones of this https://www.invitiz.app/dashboard app, add: 
+- agenda reminder
+- a "J'y serai" numerical badge generation for the ones who accept to attend the event
+- a customizable color palette (just predefined colors, not a color wheel/ color picker to not loose the user)
+- custom invitations for some specific users (The one sending the invite select/enters specific informations about some of the invited ones and for each of them, so they will get a personalized link with their names on the invite card.)
+- whatsapp reminder (the user to confirm his place enters his whatsapp or email (optional))
+- QR code ticket for paid events (live concerts, etc..)
+- payment mode (mobile money by default but also credit card for foreigners)
+- the ability for the user (event creator) to add photos of the event to the app and after the event, a link is generated and sent to all the confirmed participants. (conservation limit == 30 days max (also customizable by the user (from 1 week to 30 days))).
+- google maps location to guide the invited
+
+Stack: 
+* react js x Typescript
+* Tailwind css
+* Material icons
+* Gsap for fluid animations
+* lenis for clean scroll
+
+Use good UI/UX principles from your skills to build the app and just get the inspiration (pages, functionalities) from the invitz app, not their style
+
+Color palette:
+#EA6113
+#FBB931
+#F88F22
+#FFE3B3
+
+

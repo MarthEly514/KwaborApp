@@ -1,0 +1,32 @@
+@import '@material-symbols/font-400/rounded.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html.lenis,
+html.lenis body {
+    height: auto;
+}
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+
+.material-symbols-rounded {
+    font-size: 1.25em;
+    line-height: 1;
+    vertical-align: middle;
+    user-select: none;
+}
+
+:focus-visible {
+    outline: 3px solid theme('colors.ink');
+    outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+}
